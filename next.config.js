@@ -19,6 +19,18 @@ module.exports = {
         protocol: 'https',
         hostname: 'source.unsplash.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'purdyimmigrationlawyer.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'marvinlawoffice.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'austinimmigrationattorney.com',
+      }
     ],
   }
 };
