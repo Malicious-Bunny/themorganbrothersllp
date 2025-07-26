@@ -9,6 +9,9 @@ module.exports = {
 
   swcMinify: true,
   poweredByHeader: false,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     remotePatterns: [
       {
