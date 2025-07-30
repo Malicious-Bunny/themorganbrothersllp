@@ -68,6 +68,10 @@ export const headerData: HeaderProps = {
       icon: IconChevronDown,
       links: [
         {
+          label: 'Complete Document Package ($5,000)',
+          href: '/complete-document-package',
+        },
+        {
           label: 'US Passport',
           href: '/us-passport',
         },
