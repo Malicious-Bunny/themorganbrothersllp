@@ -6,7 +6,6 @@ import Content from '~/components/widgets/Content';
 import Features from '~/components/widgets/Features';
 import Steps from '~/components/widgets/Steps';
 import FAQs from '~/components/widgets/FAQs';
-import Testimonials from '~/components/widgets/Testimonials';
 import CallToAction2 from '~/components/widgets/CallToAction2';
 import Contact from '~/components/widgets/Contact';
 import {
@@ -28,7 +27,8 @@ import {
   IconChevronRight,
   IconUserCheck,
   IconClipboardCheck,
-  IconCertificate
+  IconCertificate,
+  IconMail
 } from '@tabler/icons-react';
 
 export const metadata: Metadata = {
@@ -45,22 +45,8 @@ const socialSecurityHero = {
   ),
   subtitle: (
     <>
-      <div className="mb-6 p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-800">
-        <div className="flex items-center gap-3 mb-2">
-          <IconFileText className="w-6 h-6 text-primary-600" />
-          <span className="font-bold text-xl text-primary-600">$1000 Attorney Fee</span>
-        </div>
-        <div className="flex items-center gap-3 mb-2">
-          <IconClock className="w-6 h-6 text-primary-600" />
-          <span className="font-bold text-lg text-primary-600">2-6 Weeks Processing</span>
-        </div>
-        <div className="flex items-center gap-3">
-          <IconUserCheck className="w-6 h-6 text-primary-600" />
-          <span className="font-bold text-lg text-primary-600">Eligibility Assessment Included</span>
-        </div>
-      </div>
       Your Social Security Number is the key to employment, banking, credit, healthcare, and countless other essential services in the United States.
-      Our immigration law experts provide comprehensive SSN application assistance, ensuring your application meets all Social Security Administration requirements.
+      Our experienced immigration attorneys provide comprehensive SSN application assistance, ensuring your application meets all Social Security Administration requirements for approval.
     </>
   ),
   callToAction: {
@@ -69,8 +55,8 @@ const socialSecurityHero = {
     icon: IconBrandWhatsapp,
   },
   callToAction2: {
-    text: 'Check Eligibility',
-    href: '#eligibility',
+    text: 'Contact Us Today',
+    href: '#contact-social-security',
   },
   image: {
     src: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
@@ -327,7 +313,88 @@ const socialSecurityCallToAction = {
   subtitle: 'Don\'t let documentation issues delay your ability to work and live fully in the United States. Get expert legal assistance with your SSN application today.',
   callToAction: {
     text: 'Schedule Free Consultation',
-    href: '/contact',
+    href: '#contact-social-security',
+  },
+};
+
+const ssnContactData = {
+  id: 'contact-social-security',
+  hasBackground: true,
+  header: {
+    title: 'Get Professional SSN Application Assistance',
+    subtitle: 'Contact Morgan Dauterive LLP today for expert Social Security Number application services.',
+  },
+  content: 'Our experienced immigration attorneys are ready to help you navigate the SSN application process efficiently and professionally.',
+  items: [
+    {
+      title: 'Free Initial Consultation',
+      description: 'Discuss your case and eligibility with our experienced immigration attorneys.',
+      icon: IconPhoneCall,
+    },
+    {
+      title: 'WhatsApp Available',
+      description: 'Quick consultation and updates available through WhatsApp for your convenience.',
+      icon: IconBrandWhatsapp,
+    },
+    {
+      title: 'Professional Legal Support',
+      description: 'Complete application assistance with $1000 attorney fee for comprehensive service.',
+      icon: IconShield,
+    },
+  ],
+  form: {
+    inputs: [
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Full Name',
+        placeholder: 'Your full legal name',
+        autocomplete: 'name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email Address',
+        placeholder: 'your.email@example.com',
+        autocomplete: 'email',
+      },
+      {
+        type: 'tel',
+        name: 'phone',
+        label: 'Phone Number',
+        placeholder: '(555) 123-4567',
+        autocomplete: 'tel',
+      },
+      {
+        type: 'text',
+        name: 'immigration_status',
+        label: 'Current Immigration Status',
+        placeholder: 'e.g., DACA, H-1B, Asylum, etc.',
+      },
+    ],
+    radioBtns: {
+      label: 'Do you currently have work authorization?',
+      radios: [
+        { label: 'Yes, I have work authorization' },
+        { label: 'No, I need help determining eligibility' },
+        { label: 'Unsure about my status' },
+      ],
+    },
+    textarea: {
+      cols: 30,
+      rows: 5,
+      name: 'message',
+      label: 'Additional Information',
+      placeholder: 'Please provide any additional details about your situation, specific questions, or concerns about the SSN application process...',
+    },
+    checkboxes: [
+      { label: 'I agree to receive communication from Morgan Dauterive LLP regarding my SSN application inquiry.' },
+      { label: 'I understand that this consultation is confidential and protected by attorney-client privilege.' },
+    ],
+    btn: {
+      title: 'Schedule SSN Consultation',
+      type: 'submit',
+    },
   },
 };
 
@@ -340,16 +407,8 @@ export default function SocialSecurityPage() {
       <Features {...ssnBenefitsFeatures} />
       <Content {...documentContent} />
       <FAQs {...ssnFAQs} />
-      <Testimonials {...ssnTestimonials} />
       <CallToAction2 {...socialSecurityCallToAction} />
-      <Contact
-        id="contact-social-security"
-        hasBackground={true}
-        header={{
-          title: 'Get Professional SSN Application Assistance',
-          subtitle: 'Contact Morgan Dauterive LLP today for expert Social Security Number application services. $1000 attorney fee includes complete application support.',
-        }}
-      />
+      <Contact {...ssnContactData} />
     </>
   );
 }
