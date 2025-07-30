@@ -45,6 +45,16 @@ const socialSecurityHero = {
   ),
   subtitle: (
     <>
+      <div className="mb-6 p-4 bg-primary-50 dark:bg-primary-900/20 rounded-lg border border-primary-200 dark:border-primary-800">
+        <div className="flex items-center gap-3 mb-2">
+          <IconFileText className="w-6 h-6 text-primary-600" />
+          <span className="font-bold text-xl text-primary-600">$1000 Attorney Fee</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <IconClock className="w-6 h-6 text-primary-600" />
+          <span className="font-bold text-lg text-primary-600">2 weeks Processing</span>
+        </div>
+      </div>
       Your Social Security Number is the key to employment, banking, credit, healthcare, and countless other essential services in the United States.
       Our experienced immigration attorneys provide comprehensive SSN application assistance, ensuring your application meets all Social Security Administration requirements for approval.
     </>
@@ -59,7 +69,7 @@ const socialSecurityHero = {
     href: '#contact-social-security',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/socialsecurity.jpg',
     alt: 'Social Security Number application assistance',
   },
 };
@@ -96,7 +106,7 @@ const eligibilityContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/ssnprocess.jpg',
     alt: 'Social Security eligibility assessment',
   },
   isReversed: false,
@@ -184,44 +194,6 @@ const ssnBenefitsFeatures = {
   ],
 };
 
-const documentContent = {
-  id: 'documents-social-security',
-  hasBackground: true,
-  header: {
-    title: 'Required Documents for SSN Application',
-    subtitle: 'Complete documentation checklist to ensure successful application submission',
-  },
-  content: `The Social Security Administration requires specific documentation to verify your identity, immigration status, and work authorization.
-    Our attorneys ensure you have all necessary documents properly prepared and formatted.`,
-  items: [
-    {
-      title: 'Identity Verification',
-      description: 'Valid passport, driver\'s license, or other government-issued photo identification accepted by the SSA.',
-      icon: IconId,
-    },
-    {
-      title: 'Immigration Status Documents',
-      description: 'I-94 record, visa documentation, green card, or other proof of lawful status in the United States.',
-      icon: IconFileText,
-    },
-    {
-      title: 'Work Authorization Evidence',
-      description: 'Employment Authorization Document (EAD), I-20 with work permission, or other documents showing work eligibility.',
-      icon: IconCheck,
-    },
-    {
-      title: 'Supporting Documentation',
-      description: 'Additional documents may be required based on your specific immigration status and circumstances.',
-      icon: IconClipboardCheck,
-    },
-  ],
-  image: {
-    src: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
-    alt: 'Required documents for SSN application',
-  },
-  isReversed: true,
-  isAfterContent: true,
-};
 
 const ssnFAQs = {
   id: 'faqs-social-security',
@@ -405,7 +377,6 @@ export default function SocialSecurityPage() {
       <Content {...eligibilityContent} />
       <Steps {...processSteps} />
       <Features {...ssnBenefitsFeatures} />
-      <Content {...documentContent} />
       <FAQs {...ssnFAQs} />
       <CallToAction2 {...socialSecurityCallToAction} />
       <Contact {...ssnContactData} />

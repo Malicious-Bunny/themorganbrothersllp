@@ -46,7 +46,7 @@ const passportHero = {
     href: '#requirements',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/uspassport.jpg',
     alt: 'US passport application assistance',
   },
 };
@@ -80,7 +80,7 @@ const passportContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/whatisuspassport.jpg',
     alt: 'US passport services',
   },
   isReversed: false,

@@ -46,7 +46,7 @@ const birthCertHero = {
     href: '#requirements',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/birthcertificate.jpg',
     alt: 'Birth certificate documentation services',
   },
 };
@@ -81,7 +81,7 @@ const birthCertContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/birthertificateprocess.jpg',
     alt: 'Birth certificate services',
   },
   isReversed: false,

@@ -46,7 +46,7 @@ const crbaHero = {
     href: '#eligibility',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/birthabroad.webp',
     alt: 'Consular Report of Birth Abroad services',
   },
 };
@@ -81,7 +81,7 @@ const crbaContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/crofbabroad.jpg',
     alt: 'CRBA documentation services',
   },
   isReversed: false,

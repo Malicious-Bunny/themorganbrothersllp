@@ -46,7 +46,7 @@ const licenseHero = {
     href: '#requirements',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/driverslicensehero.jpg',
     alt: 'Driver\'s license application assistance',
   },
 };
@@ -81,7 +81,7 @@ const licenseContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/driverslienseprocess.jpg',
     alt: 'Driver\'s license services',
   },
   isReversed: false,

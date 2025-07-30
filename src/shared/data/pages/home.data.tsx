@@ -520,7 +520,7 @@ export const teamHome: TeamProps = {
       name: 'Morgan Dauterive',
       job: 'Senior Partner & Managing Attorney',
       image: {
-        src: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: '/morgan.jpg',
         alt: 'Morgan Dauterive',
       },
       items: [
@@ -549,7 +549,7 @@ export const teamHome: TeamProps = {
       name: 'Maria Elena Rodriguez',
       job: 'Associate Attorney',
       image: {
-        src: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: '/maria.jpg',
         alt: 'Maria Elena Rodriguez',
       },
       items: [
@@ -578,7 +578,7 @@ export const teamHome: TeamProps = {
       name: 'Carlos Miguel Santos',
       job: 'Immigration Attorney',
       image: {
-        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: '/carlos.jpg',
         alt: 'Carlos Miguel Santos',
       },
       items: [
@@ -607,7 +607,7 @@ export const teamHome: TeamProps = {
       name: 'Alejandra Gutierrez',
       job: 'Legal Assistant & Case Manager',
       image: {
-        src: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+        src: '/gutierez.jpg',
         alt: 'Alejandra Gutierrez',
       },
       items: [

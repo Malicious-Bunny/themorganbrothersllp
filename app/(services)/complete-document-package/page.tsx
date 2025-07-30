@@ -55,9 +55,8 @@ const documentPackageHero = {
     <>
       <div className="mb-6 p-6 bg-primary-50 dark:bg-primary-900/20 rounded-xl border border-primary-200 dark:border-primary-800">
         <div className="flex items-center justify-center gap-4 mb-4">
-          <IconPackage className="w-8 h-8 text-primary-600" />
           <span className="font-bold text-3xl text-primary-600">$5,000 Complete Package</span>
-          <IconStar className="w-8 h-8 text-primary-600" />
+         
         </div>
         <div className="text-center">
           <span className="font-semibold text-lg text-primary-700">Everything You Need - One Price, Complete Service</span>
@@ -77,7 +76,7 @@ const documentPackageHero = {
     href: '#contact-document-package',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/completedocuments.webp',
     alt: 'Complete document package service',
   },
 };
@@ -124,7 +123,7 @@ const documentsIncluded = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/completedocumentprocess.jpg',
     alt: 'All documents included in package',
   },
   isReversed: false,
@@ -261,8 +260,8 @@ const packageFAQs = {
 const documentPackageCallToAction = {
   id: 'cta-document-package',
   hasBackground: false,
-  title: 'Ready for Complete Documentation?',
-  subtitle: 'Don\'t waste time and money on individual applications. Get everything you need with our comprehensive $5,000 document package.',
+  title: 'Ready to get your legal status?',
+  subtitle: 'Get everything you need with our comprehensive $5,000 document package.',
   callToAction: {
     text: 'Schedule Free Consultation',
     href: '#contact-document-package',

@@ -3,7 +3,7 @@ const Logo = () => (
     <div className="flex items-center space-x-3">
       {/* Logo Icon */}
       <div className="flex-shrink-0">
-        <div className="w-10 h-10 bg-primary-900 rounded-lg flex items-center justify-center">
+      <div className="w-10 h-10 bg-primary-900 rounded-lg flex items-center justify-center">
           <svg
             className="w-6 h-6 text-white"
             fill="currentColor"

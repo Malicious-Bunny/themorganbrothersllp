@@ -46,7 +46,7 @@ const certNaturalizationHero = {
     href: '#requirements',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/certificate-of-naturalization-sample.jpg',
     alt: 'Certificate of naturalization replacement services',
   },
 };
@@ -81,7 +81,7 @@ const certNaturalizationContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/naturalizationprocess.jpg',
     alt: 'Certificate of naturalization replacement',
   },
   isReversed: false,

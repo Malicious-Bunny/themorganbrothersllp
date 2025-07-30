@@ -48,7 +48,7 @@ const asylumHero = {
     href: '#process',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/asylum-hero.jpg',
     alt: 'Person seeking protection and safety',
   },
 };
@@ -81,7 +81,7 @@ const asylumContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/whatisasylum.jpg',
     alt: 'Legal consultation for asylum case',
   },
   isReversed: false,
@@ -171,7 +171,7 @@ const asylumProcess = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/daca-process.jpg',
     alt: 'Asylum legal process documentation',
   },
 };

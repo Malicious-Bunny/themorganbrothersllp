@@ -80,7 +80,7 @@ const tpsContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/protected.jpg',
     alt: 'Legal documentation and assistance',
   },
   isReversed: false,

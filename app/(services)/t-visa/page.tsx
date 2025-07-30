@@ -47,7 +47,7 @@ const tVisaHero = {
     href: 'https://wa.me/17135550123',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/survivors.jpg',
     alt: 'Support and protection for trafficking survivors',
   },
 };
@@ -80,7 +80,7 @@ const tVisaContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/whatisasylum.jpg',
     alt: 'Legal protection and support for survivors',
   },
   isReversed: false,

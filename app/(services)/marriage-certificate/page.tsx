@@ -46,7 +46,7 @@ const marriageHero = {
     href: '#requirements',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/marriagecertificate.jpg',
     alt: 'Marriage certificate legal assistance',
   },
 };

@@ -81,7 +81,7 @@ const dacaContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/DACA.jpg',
     alt: 'Person reviewing DACA documents',
   },
   isReversed: false,
@@ -161,7 +161,7 @@ const dacaProcess = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/daca-process.jpg',
     alt: 'DACA application process steps',
   },
 };

@@ -47,7 +47,7 @@ const adjustmentHero = {
     href: '#eligibility',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/greencardhero.jpg',
     alt: 'Family celebrating green card approval',
   },
 };
@@ -227,7 +227,7 @@ const adjustmentProcess = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/daca-process.jpg',
     alt: 'Green card application process',
   },
 };

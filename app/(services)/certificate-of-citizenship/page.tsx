@@ -46,7 +46,7 @@ const certCitizenshipHero = {
     href: '#eligibility',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/certificateofcitizenship.webp',
     alt: 'Certificate of citizenship services',
   },
 };

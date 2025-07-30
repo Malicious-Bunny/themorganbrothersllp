@@ -46,7 +46,7 @@ const cancellationHero = {
     href: 'https://wa.me/17135550123',
   },
   image: {
-    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/cancelationofremoval.jpg',
     alt: 'Immigration court deportation defense',
   },
 };
@@ -79,7 +79,7 @@ const cancellationContent = {
     },
   ],
   image: {
-    src: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    src: '/whatiscor.jpg',
     alt: 'Family protection from deportation',
   },
   isReversed: false,
