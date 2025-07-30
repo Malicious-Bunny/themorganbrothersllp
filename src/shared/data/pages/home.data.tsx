@@ -248,7 +248,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconHome,
       price: '$1,200',
       image: {
-        src: '/papers/doc-13.jpg',
+        src: '/naturalizationprocess.jpg',
         alt: 'TPS registration services',
       },
       callToAction: {
@@ -262,7 +262,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconFileText,
       price: '$5,000',
       image: {
-        src: '/papers/doc-12.jpg',
+        src: '/greencardhero.jpg',
         alt: 'Deportation defense services',
       },
       callToAction: {
@@ -276,7 +276,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconPhoneCall,
       price: '$300',
       image: {
-        src: '/papers/doc-13.jpg',
+        src: '/lawyer-consultation.jpg',
         alt: 'Legal consultation services',
       },
       callToAction: {
@@ -290,7 +290,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconFileText,
       price: '$3000',
       image: {
-        src: '/papers/doc-14.jpg',
+        src: '/uspassport.jpg',
         alt: 'US passport application services',
       },
       callToAction: {
@@ -304,7 +304,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconCheck,
       price: '$1200',
       image: {
-        src: '/papers/doc-1.jpg',
+        src: '/birthcertificate.jpg',
         alt: 'Birth certificate services',
       },
       callToAction: {
@@ -318,7 +318,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconHome,
       price: '$200',
       image: {
-        src: '/papers/doc-8.jpg',
+        src: '/birthabroad.webp',
         alt: 'Consular report of birth abroad services',
       },
       callToAction: {
@@ -332,7 +332,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconShield,
       price: '$800',
       image: {
-        src: '/papers/doc-9.jpg',
+        src: '/certificateofcitizenship.webp',
         alt: 'Certificate of citizenship services',
       },
       callToAction: {
@@ -346,7 +346,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconUsers,
       price: '$600',
       image: {
-        src: '/papers/doc-6.jpg',
+        src: '/certificate-of-naturalization-sample.jpg',
         alt: 'Certificate of naturalization services',
       },
       callToAction: {
@@ -360,7 +360,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconUser,
       price: '$1000',
       image: {
-        src: '/papers/doc-5.jpg',
+        src: '/papers/doc-2.jpg',
         alt: 'Social Security Number application services',
       },
       callToAction: {
