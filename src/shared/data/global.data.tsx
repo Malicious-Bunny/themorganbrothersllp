@@ -68,7 +68,7 @@ export const headerData: HeaderProps = {
       icon: IconChevronDown,
       links: [
         {
-          label: 'Complete Document Package ($5,000)',
+          label: 'Complete Document Package ',
           href: '/complete-document-package',
         },
         {
