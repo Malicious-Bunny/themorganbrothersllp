@@ -34,7 +34,7 @@ const faqHero = {
     icon: IconBrandWhatsapp,
   },
   image: {
-    src: '/lawyer-consultation.jpg',
+    src: '/papers/doc-5.jpg',
     alt: 'Immigration attorney answering questions',
   },
 };

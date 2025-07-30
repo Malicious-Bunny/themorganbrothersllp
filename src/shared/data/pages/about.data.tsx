@@ -50,7 +50,7 @@ export const hero2About: HeroProps = {
     href: '/services',
   },
   image: {
-    src: hero2Img,
+    src: '/papers/doc-1.jpg',
     alt: 'Immigration lawyers helping clients',
   },
 };

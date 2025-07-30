@@ -164,7 +164,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconShield,
       price: '$1,500',
       image: {
-        src: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-1.jpg',
         alt: 'DACA application services',
       },
       callToAction: {
@@ -178,7 +178,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconHeartbeat,
       price: '$4,500',
       image: {
-        src: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-10.jpg',
         alt: 'Asylum legal services',
       },
       callToAction: {
@@ -192,7 +192,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconUsers,
       price: '$3,200',
       image: {
-        src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-7.jpg',
         alt: 'Green card application services',
       },
       callToAction: {
@@ -206,7 +206,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconLock,
       price: '$2,800',
       image: {
-        src: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-8.jpg',
         alt: 'U visa services for crime victims',
       },
       callToAction: {
@@ -220,7 +220,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconScale,
       price: '$3,000',
       image: {
-        src: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-9.jpg',
         alt: 'T visa services for trafficking victims',
       },
       callToAction: {
@@ -234,7 +234,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconHeartbeat,
       price: '$2,500',
       image: {
-        src: 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-3.jpg',
         alt: 'VAWA self-petition services',
       },
       callToAction: {
@@ -248,7 +248,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconHome,
       price: '$1,200',
       image: {
-        src: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-13.jpg',
         alt: 'TPS registration services',
       },
       callToAction: {
@@ -262,7 +262,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconFileText,
       price: '$5,000',
       image: {
-        src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-12.jpg',
         alt: 'Deportation defense services',
       },
       callToAction: {
@@ -276,7 +276,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconPhoneCall,
       price: '$300',
       image: {
-        src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-13.jpg',
         alt: 'Legal consultation services',
       },
       callToAction: {
@@ -290,7 +290,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconFileText,
       price: '$3000',
       image: {
-        src: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-14.jpg',
         alt: 'US passport application services',
       },
       callToAction: {
@@ -304,7 +304,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconCheck,
       price: '$1200',
       image: {
-        src: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-1.jpg',
         alt: 'Birth certificate services',
       },
       callToAction: {
@@ -318,7 +318,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconHome,
       price: '$200',
       image: {
-        src: 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-8.jpg',
         alt: 'Consular report of birth abroad services',
       },
       callToAction: {
@@ -332,7 +332,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconShield,
       price: '$800',
       image: {
-        src: 'https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-9.jpg',
         alt: 'Certificate of citizenship services',
       },
       callToAction: {
@@ -346,7 +346,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconUsers,
       price: '$600',
       image: {
-        src: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-6.jpg',
         alt: 'Certificate of naturalization services',
       },
       callToAction: {
@@ -360,7 +360,7 @@ export const servicesHome: FeaturesProps = {
       icon: IconUser,
       price: '$1000',
       image: {
-        src: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        src: '/papers/doc-5.jpg',
         alt: 'Social Security Number application services',
       },
       callToAction: {
@@ -400,7 +400,7 @@ export const contentHomeOne: ContentProps = {
     },
   ],
   image: {
-    src: 'https://purdyimmigrationlawyer.com/wp-content/uploads/2021/12/Florida-Immigration-Lawyer-1.jpg',
+    src: '/papers/doc-7.jpg',
     alt: 'Immigration consultation',
   },
   isReversed: false,
@@ -427,7 +427,7 @@ export const contentHomeTwo: ContentProps = {
     },
   ],
   image: {
-    src: 'https://marvinlawoffice.com/wp-content/uploads/5-ways-to-green-card.jpg',
+    src: '/papers/doc-9.jpg',
     alt: 'Legal documentation and green card',
   },
   isReversed: true,

@@ -8,7 +8,6 @@ import Features4 from '~/components/widgets/Features4';
 import Hero2 from '~/components/widgets/Hero2';
 import Stats from '~/components/widgets/Stats';
 import Steps from '~/components/widgets/Steps';
-import Team2 from '~/components/widgets/Team2';
 import {
   contactAbout,
   faqsAbout,
@@ -36,7 +35,6 @@ const Page = () => {
       <Steps {...stepsAbout} />
       <Features3 {...features3About} />
       <Features {...featuresAbout} />
-      <Team2 {...teamAbout} />
       <FAQs {...faqsAbout} />
       <Contact {...contactAbout} />
     </>
