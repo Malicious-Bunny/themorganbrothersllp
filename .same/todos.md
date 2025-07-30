@@ -1,67 +1,34 @@
-# Project Todos - Morgan Dauterive LLP
+# Project Edits - Morgan Dauterive LLP
 
-## ✅ Completed Tasks
+## Current Tasks in Progress
 
-1. **Repository Setup**
-   - ✅ Cloned repository from GitHub: `https://github.com/Malicious-Bunny/themorganbrothersllp.git`
-   - ✅ Explored complete project structure
-   - ✅ Analyzed key configuration files (package.json, config.js, etc.)
-   - ✅ Reviewed homepage content structure and data
-   - ✅ Created comprehensive project analysis documentation
+### Homepage Updates
+- [ ] Update hero subtitle to focus on fast document processing (within 5 days)
 
-2. **Project Understanding**
-   - ✅ Identified project as Morgan Dauterive LLP immigration law firm website
-   - ✅ Documented technology stack (Next.js 14, TypeScript, Tailwind CSS)
-   - ✅ Catalogued all 16+ immigration services offered
-   - ✅ Analyzed component architecture and data structure
-   - ✅ Verified project is in beta stage (v1.0.0-beta.4)
+### Service Pages Updates (Processing Times & Rush Fees)
+- [ ] Birth Certificate - Update to 1-5 days + add rush fee option
+- [ ] DACA - Update to 1-5 days + add rush fee option
+- [ ] Asylum - Update to 1-5 days + add rush fee option
+- [ ] Adjustment of Status - Update to 1-5 days + add rush fee option
+- [ ] Drivers License - Update to 1-5 days + add rush fee option
+- [ ] Social Security - Update to 1-5 days + add rush fee option
+- [ ] US Passport - Update to 1-5 days + add rush fee option
+- [ ] Marriage Certificate - Update to 1-5 days + add rush fee option
+- [ ] Certificate of Citizenship - Update to 1-5 days + add rush fee option
+- [ ] Certificate of Naturalization - Update to 1-5 days + add rush fee option
+- [ ] Consular Report Birth Abroad - Update to 1-5 days + add rush fee option
+- [ ] Complete Document Package - Update to 1-5 days + add rush fee option
+- [ ] Cancellation of Removal - Update to 1-5 days + add rush fee option
+- [ ] T-Visa - Update to 1-5 days + add rush fee option
+- [ ] U-Visa - Update to 1-5 days + add rush fee option
+- [ ] VAWA - Update to 1-5 days + add rush fee option
+- [ ] TPS - Update to 1-5 days + add rush fee option
 
-3. **Social Security Page Improvements**
-   - ✅ Installed dependencies and started development server
-   - ✅ Removed eligibility assessment box from hero section for cleaner look
-   - ✅ Completely removed client testimonials section
-   - ✅ Improved hero subtitle for better professional appearance
-   - ✅ Created professional contact form with SSN-specific fields:
-     - ✅ Added Full Name, Email, Phone fields
-     - ✅ Added Current Immigration Status field
-     - ✅ Added work authorization radio buttons
-     - ✅ Added Additional Information textarea
-     - ✅ Added attorney-client privilege checkboxes
-   - ✅ Updated call-to-action buttons to link to contact section
-   - ✅ Improved contact section with professional information items
-   - ✅ Successfully compiled and tested page functionality
+### Rush Fee Details
+- Standard processing: 1-5 days
+- Rush processing: 1-3 days (+$300 additional fee)
 
-4. **Critical Bug Fixes**
-   - ✅ **Fixed Homepage Error**: Diagnosed and resolved "default export is not a React Component" error
-   - ✅ **Restored Homepage**: The app/page.tsx file was completely empty (0 bytes), causing 500 errors
-   - ✅ **Rebuilt Homepage Component**: Restored complete homepage with all sections (Hero, SocialProof, Content, Services, Steps, FAQs, Team, Contact, CallToAction)
-   - ✅ **Verified Fix**: Homepage now loads successfully (GET / 200) without errors
-   - ✅ **Linting Clean**: No code quality issues detected
-
-## 🔄 Current Tasks
-
-5. **Comprehensive Document Package Service** (IN PROGRESS)
-   - [ ] Create new service page for complete document package
-   - [ ] Include all essential documents: Birth Certificate, Driver's License, Passport, SSN, Marriage Certificate, etc.
-   - [ ] Set premium pricing at $5000 for complete package
-   - [ ] Design professional page layout with package benefits
-   - [ ] Create specialized contact form for document package inquiries
-   - [ ] Add to navigation menu and service listings
-
-## 🎯 Next Steps
-
-### Immediate Tasks
-- [ ] Complete the comprehensive document package service
-- [ ] Test the new service page functionality
-- [ ] Update navigation to include new service
-- [ ] Version the new service addition
-
-### Future Improvements
-- [ ] Deploy to production environment
-- [ ] Review other service pages for consistency
-- [ ] SEO optimization
-- [ ] Add form submission handling
-
----
-
-**Current Focus**: Creating a premium $5000 comprehensive document package service that includes all essential documents (Birth Certificate, Driver's License, Passport, SSN, Marriage Certificate, etc.) for clients needing complete documentation assistance.
+## Next Steps
+- Update homepage hero
+- Systematically update all service pages
+- Test and version changes

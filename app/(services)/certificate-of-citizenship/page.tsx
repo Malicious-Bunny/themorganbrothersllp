@@ -27,9 +27,13 @@ const certCitizenshipHero = {
           <IconFileText className="w-6 h-6 text-primary-600" />
           <span className="font-bold text-xl text-primary-600">$800 Attorney Fee</span>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 mb-3">
           <IconClock className="w-6 h-6 text-primary-600" />
-          <span className="font-bold text-lg text-primary-600">14-18 Months Processing</span>
+          <span className="font-bold text-lg text-primary-600">1-5 Days Processing</span>
+        </div>
+        <div className="flex items-center gap-3 p-3 bg-orange-50 dark:bg-orange-900/20 rounded border border-orange-200 dark:border-orange-800">
+          <IconClock className="w-5 h-5 text-orange-600" />
+          <span className="font-bold text-orange-600">Rush Service: 1-3 Days (+$300)</span>
         </div>
       </div>
       Expert assistance with N-600 Certificate of Citizenship applications for individuals who derived or

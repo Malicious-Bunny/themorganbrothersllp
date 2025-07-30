@@ -56,7 +56,14 @@ const documentPackageHero = {
       <div className="mb-6 p-6 bg-primary-50 dark:bg-primary-900/20 rounded-xl border border-primary-200 dark:border-primary-800">
         <div className="flex items-center justify-center gap-4 mb-4">
           <span className="font-bold text-3xl text-primary-600">$5,000 Complete Package</span>
-         
+        </div>
+        <div className="flex items-center justify-center gap-4 mb-4">
+          <IconClock className="w-6 h-6 text-primary-600" />
+          <span className="font-bold text-lg text-primary-600">1-5 Days Processing</span>
+        </div>
+        <div className="flex items-center justify-center gap-3 p-3 bg-orange-50 dark:bg-orange-900/20 rounded border border-orange-200 dark:border-orange-800 mb-4">
+          <IconClock className="w-5 h-5 text-orange-600" />
+          <span className="font-bold text-orange-600">Rush Service: 1-3 Days (+$300)</span>
         </div>
         <div className="text-center">
           <span className="font-semibold text-lg text-primary-700">Everything You Need - One Price, Complete Service</span>

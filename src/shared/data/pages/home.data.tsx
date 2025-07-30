@@ -41,9 +41,9 @@ export const heroHome: HeroProps = {
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
           Morgan Dauterive LLP
         </span>{' '}
-        provides expert legal representation for undocumented immigrants seeking legal status.
+        delivers expedited US document processing services with guaranteed completion within 5 days maximum.
       </span>{' '}
-      We specialize in DACA, asylum, adjustment of status, and deportation defense to help secure your future in the United States.
+      We provide fast, reliable document processing including birth certificates, state IDs, Social Security cards, driver's licenses, passports, green cards, and all essential immigration documentation to secure your legal status efficiently.
     </>
   ),
   callToAction: {
