@@ -1,0 +1,201 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Fonts are loaded via Fontshare link in layout.tsx */
+/* Spline Sans: Primary font for headings and UI elements */
+/* Quicksand: Secondary font for body text and content */
+
+@layer base {
+  /* Enhanced font rendering for crisp text like LawTrades */
+  html {
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply font-sans text-base leading-relaxed text-neutral-warm-800;
+    @apply bg-white;
+  }
+
+  /* Typography improvements - Spline Sans for headings */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-semibold tracking-tight text-neutral-warm-900;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl leading-tight;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl leading-snug;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl leading-snug;
+  }
+
+  h5 {
+    @apply text-lg md:text-xl leading-snug;
+  }
+
+  h6 {
+    @apply text-base md:text-lg leading-snug;
+  }
+
+  p {
+    @apply text-neutral-warm-600 leading-relaxed;
+  }
+
+  /* Link styles */
+  a {
+    @apply text-primary-700 hover:text-primary-800 transition-colors duration-200;
+  }
+
+  /* Button base styles - Spline Sans for UI elements */
+  .btn {
+    @apply font-sans inline-flex items-center justify-center px-6 py-3 text-sm font-medium rounded-xl;
+    @apply transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-primary-900 text-white hover:bg-primary-800;
+    @apply focus:ring-primary-500 shadow-medium hover:shadow-large;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-primary-900 border border-primary-900;
+    @apply hover:bg-primary-50 focus:ring-primary-500;
+  }
+
+  /* Card styles exactly like LawTrades */
+  .card {
+    @apply bg-white rounded-2xl shadow-soft border border-neutral-warm-100;
+    @apply hover:shadow-medium transition-all duration-300;
+  }
+
+  /* Professional form inputs like LawTrades */
+  .form-input {
+    @apply w-full px-4 py-3 bg-neutral-warm-50 border border-neutral-warm-200 rounded-xl;
+    @apply focus:ring-2 focus:ring-primary-500 focus:border-primary-500;
+    @apply transition-colors duration-200 text-neutral-warm-900;
+  }
+
+  /* LawTrades-style gradient backgrounds */
+  .gradient-bg {
+    @apply bg-gradient-to-br from-white to-neutral-warm-50;
+  }
+
+  /* Professional section spacing like LawTrades */
+  .professional-section {
+    @apply py-20 lg:py-24;
+  }
+
+  /* Clean grid layouts */
+  .feature-grid-lawtrades {
+    @apply grid md:grid-cols-2 lg:grid-cols-3 gap-8;
+  }
+
+  /* Professional buttons exactly like LawTrades */
+  .btn-lawtrades {
+    @apply font-sans inline-flex items-center justify-center gap-3 px-6 py-3;
+    @apply font-semibold rounded-xl transition-all duration-200;
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-lawtrades-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white;
+    @apply focus:ring-primary-500 shadow-medium hover:shadow-large;
+  }
+
+  .btn-lawtrades-secondary {
+    @apply bg-white hover:bg-neutral-warm-50 text-primary-600;
+    @apply border border-primary-600 focus:ring-primary-500;
+  }
+
+  /* Section backgrounds like LawTrades */
+  .section-teal {
+    @apply bg-primary-900 text-white;
+  }
+
+  .section-light {
+    @apply bg-neutral-warm-50;
+  }
+
+  .section-white {
+    @apply bg-white;
+  }
+
+  /* Container improvements */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Focus styles for accessibility */
+  *:focus {
+    @apply outline-none;
+  }
+
+  *:focus-visible {
+    @apply ring-2 ring-primary-500 ring-offset-2;
+  }
+}
+
+@layer components {
+  /* LawTrades-style hero section */
+  .hero-section {
+    @apply py-20 lg:py-32 bg-gradient-to-br from-white to-neutral-warm-50;
+  }
+
+  /* Feature grid like LawTrades */
+  .feature-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8;
+  }
+
+  .feature-card {
+    @apply p-8 bg-white rounded-2xl shadow-soft hover:shadow-medium;
+    @apply transition-shadow duration-300 border border-neutral-warm-100;
+  }
+
+  /* Testimonial styles */
+  .testimonial-card {
+    @apply p-8 bg-white rounded-2xl shadow-soft;
+    @apply border border-neutral-warm-100;
+  }
+
+  /* FAQ styles like LawTrades */
+  .faq-item {
+    @apply border border-neutral-warm-200 rounded-xl overflow-hidden;
+    @apply bg-white hover:shadow-soft transition-shadow duration-200;
+  }
+
+  /* Navigation improvements */
+  .nav-link {
+    @apply font-sans text-neutral-warm-700 hover:text-primary-800;
+    @apply font-medium transition-colors duration-200;
+  }
+
+  /* Section spacing like LawTrades */
+  .section-spacing {
+    @apply py-16 lg:py-24;
+  }
+
+  .section-spacing-sm {
+    @apply py-12 lg:py-16;
+  }
+
+  .section-spacing-lg {
+    @apply py-20 lg:py-32;
+  }
+}
