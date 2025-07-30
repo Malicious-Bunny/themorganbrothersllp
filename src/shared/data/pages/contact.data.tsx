@@ -7,7 +7,7 @@ export const heroContact: HeroProps = {
   title: 'Schedule Your Free Immigration Consultation',
   subtitle: (
     <>
-      <span className="hidden md:inline">{`Don't navigate the complex immigration system alone. Morgan Dauterive LLP is here to help you secure your legal status in the United States.`}</span>{' '}
+      <span className="hidden md:inline">{`Don&apos;t navigate the complex immigration system alone. Morgan Dauterive LLP is here to help you secure your legal status in the United States.`}</span>{' '}
       {`Contact us today for expert immigration legal representation.`}
     </>
   ),

@@ -183,7 +183,7 @@ export const testimonialsServices: TestimonialsProps = {
     {
       name: 'Maria Rodriguez',
       job: 'DACA Recipient',
-      testimonial: `Morgan Dauterive LLP helped me renew my DACA status when I thought all hope was lost. Their expertise and dedication gave me back my future in America. I can't thank them enough.`,
+      testimonial: `Morgan Dauterive LLP helped me renew my DACA status when I thought all hope was lost. Their expertise and dedication gave me back my future in America. I can&apos;t thank them enough.`,
       image: {
         src: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
         alt: 'Maria Rodriguez',
@@ -237,11 +237,11 @@ export const faqsServices: FAQsProps = {
     },
     {
       title: 'What documents do I need for my case?',
-      description: `Required documents depend on your specific case type. During our consultation, we'll provide a detailed checklist of all necessary documentation and help you gather what's needed.`,
+      description: `Required documents depend on your specific case type. During our consultation, we&apos;ll provide a detailed checklist of all necessary documentation and help you gather what&apos;s needed.`,
       icon: IconChevronsRight,
     },
     {
-      title: 'Can you help if I\'m already in removal proceedings?',
+      title: 'Can you help if I&apos;m already in removal proceedings?',
       description: `Yes, we have extensive experience defending clients in immigration court. We can help with cancellation of removal, asylum claims, and other defenses against deportation.`,
       icon: IconChevronsRight,
     },

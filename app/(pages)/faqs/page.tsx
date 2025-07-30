@@ -91,11 +91,11 @@ const faqsData = {
     },
     {
       title: 'Can I get a work permit while my case is pending?',
-      description: `Work authorization depends on your case type: asylum applicants can apply 150 days after filing (with no delays caused by them), DACA recipients receive work permits as part of their approval, U visa applicants may be eligible if they're helpful to law enforcement, T visa applicants can receive work authorization, and VAWA self-petitioners may qualify. Adjustment of status applicants can apply once their case is filed. Each category has specific requirements and timelines.`,
+      description: `Work authorization depends on your case type: asylum applicants can apply 150 days after filing (with no delays caused by them), DACA recipients receive work permits as part of their approval, U visa applicants may be eligible if they&apos;re helpful to law enforcement, T visa applicants can receive work authorization, and VAWA self-petitioners may qualify. Adjustment of status applicants can apply once their case is filed. Each category has specific requirements and timelines.`,
     },
     {
       title: 'What happens if my immigration application is denied?',
-      description: `If your application is denied: review the denial notice carefully for specific reasons, determine if you can appeal or file a motion to reopen/reconsider, assess alternative legal options, consult with an experienced immigration attorney immediately, be aware of deadlines for appeals (usually 30 days), and avoid falling out of status if possible. Many denials can be overcome with proper legal strategy and representation. Don't give up - options may still be available.`,
+      description: `If your application is denied: review the denial notice carefully for specific reasons, determine if you can appeal or file a motion to reopen/reconsider, assess alternative legal options, consult with an experienced immigration attorney immediately, be aware of deadlines for appeals (usually 30 days), and avoid falling out of status if possible. Many denials can be overcome with proper legal strategy and representation. Don&apos;t give up - options may still be available.`,
     },
   ],
 };

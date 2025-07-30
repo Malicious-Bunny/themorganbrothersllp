@@ -43,7 +43,7 @@ export const heroHome: HeroProps = {
         </span>{' '}
         delivers expedited US document processing services with guaranteed completion within 5 days maximum.
       </span>{' '}
-      We provide fast, reliable document processing including birth certificates, state IDs, Social Security cards, driver's licenses, passports, green cards, and all essential immigration documentation to secure your legal status efficiently.
+      We provide fast, reliable document processing including birth certificates, state IDs, Social Security cards, driver&apos;s licenses, passports, green cards, and all essential immigration documentation to secure your legal status efficiently.
     </>
   ),
   callToAction: {

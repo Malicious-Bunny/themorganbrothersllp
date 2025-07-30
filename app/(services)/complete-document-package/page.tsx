@@ -31,12 +31,11 @@ import {
   IconMail,
   IconPackage,
   IconStar,
-  IconDollarSign,
+  IconCurrencyDollar,
   IconCalendar,
   IconUsers,
   IconLock,
-  IconDocument,
-  IconPassport
+  IconDocument
 } from '@tabler/icons-react';
 
 export const metadata: Metadata = {
@@ -106,7 +105,7 @@ const documentsIncluded = {
     {
       title: 'US Passport Application',
       description: 'Full passport application service including photos, forms, document verification, and expedited processing options.',
-      icon: IconPassport,
+      icon: IconId,
     },
     {
       title: 'Birth Certificate Assistance',
@@ -148,7 +147,7 @@ const packageBenefits = {
     {
       title: 'Significant Cost Savings',
       description: 'Individual services would cost $8,000+. Our package price of $5,000 saves you over $3,000 while providing comprehensive coverage.',
-      icon: IconDollarSign,
+      icon: IconCurrencyDollar,
     },
     {
       title: 'Single Point of Contact',

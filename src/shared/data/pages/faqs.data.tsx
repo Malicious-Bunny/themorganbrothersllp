@@ -40,11 +40,11 @@ export const faqs4Faqs: FAQsProps = {
           description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
         },
         {
-          title: "What's something that you completely don't understand?",
+          title: "What&apos;s something that you completely don&apos;t understand?",
           description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
         },
         {
-          title: "What's an example of when you changed your mind?",
+          title: "What&apos;s an example of when you changed your mind?",
           description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
         },
         {

@@ -7,7 +7,7 @@ export const heroPricing: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-        {`Here, you'll find a clear breakdown of our service plans and their respective features. Whether you're a small
+        {`Here, you&apos;ll find a clear breakdown of our service plans and their respective features. Whether you&apos;re a small
         business or a large enterprise, we have options tailored to your needs.`}
       </span>{' '}
       You can choose the plan that best suits your goals!
