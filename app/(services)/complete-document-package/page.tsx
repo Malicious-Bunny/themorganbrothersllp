@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 import { SITE } from '~/config.js';
-import Hero from '~/components/widgets/Hero';
+import HeroWithSlider from '~/components/widgets/HeroWithSlider';
 import Content from '~/components/widgets/Content';
 import Features from '~/components/widgets/Features';
 import Steps from '~/components/widgets/Steps';
@@ -81,10 +81,7 @@ const documentPackageHero = {
     text: 'Get Complete Package',
     href: '#contact-document-package',
   },
-  image: {
-    src: '/completedocuments.webp',
-    alt: 'Complete document package service',
-  },
+
 };
 
 const documentsIncluded = {
@@ -359,7 +356,7 @@ const packageContactData = {
 export default function CompleteDocumentPackagePage() {
   return (
     <>
-      <Hero {...documentPackageHero} />
+      <HeroWithSlider {...documentPackageHero} />
       <Content {...documentsIncluded} />
       <Features {...packageBenefits} />
       <Steps {...packageProcess} />
