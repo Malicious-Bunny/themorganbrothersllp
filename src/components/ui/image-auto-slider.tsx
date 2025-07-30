@@ -6,14 +6,10 @@ import Image from 'next/image';
 export const ImageAutoSlider = () => {
   // Images for the infinite scroll - using Unsplash URLs
   const images = [
-    "https://images.unsplash.com/photo-1518495973542-4542c06a5843?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=2152&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://plus.unsplash.com/premium_photo-1673264933212-d78737f38e48?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://plus.unsplash.com/premium_photo-1711434824963-ca894373272e?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://plus.unsplash.com/premium_photo-1675705721263-0bbeec261c49?q=80&w=1940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1524799526615-766a9833dec0?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+   "/papers/doc-1.jpg",
+   "/papers/doc-2.jpg",
+   "/papers/doc-3.jpg",
+   "/papers/doc-4.jpg"
   ];
 
   // Duplicate images for seamless loop
@@ -32,7 +28,7 @@ export const ImageAutoSlider = () => {
         }
 
         .infinite-scroll {
-          animation: scroll-right 20s linear infinite;
+          animation: scroll-right 30s linear infinite;
         }
 
         .scroll-container {
@@ -71,7 +67,7 @@ export const ImageAutoSlider = () => {
                 {duplicatedImages.map((image, index) => (
                   <div
                     key={index}
-                    className="image-item flex-shrink-0 w-[416px] h-[416px] rounded-xl overflow-hidden shadow-2xl"
+                    className="image-item flex-shrink-0 w-[440px] h-[440px] rounded-xl overflow-hidden shadow-2xl"
                   >
                     <Image
                       src={image}
