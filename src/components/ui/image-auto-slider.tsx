@@ -71,14 +71,14 @@ export const ImageAutoSlider = () => {
                 {duplicatedImages.map((image, index) => (
                   <div
                     key={index}
-                    className="image-item flex-shrink-0 w-80 h-80 rounded-xl overflow-hidden shadow-2xl"
+                    className="image-item flex-shrink-0 w-[416px] h-[416px] rounded-xl overflow-hidden shadow-2xl"
                   >
                     <Image
                       src={image}
                       alt={`Gallery image ${(index % images.length) + 1}`}
                       className="w-full h-full object-cover"
-                      width={320}
-                      height={320}
+                      width={416}
+                      height={416}
                       loading="lazy"
                     />
                   </div>
